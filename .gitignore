@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/syschain-server
+syschain-server.so
+syschain-server.dylib
+syschain-server.dll
+syschain-server.a
+syschain-server.lib
+syschain-server-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

@@ -1,0 +1,18 @@
+{
+	"authors": [
+		"anon"
+	],
+	"copyright": "Copyright © 2023, anon",
+	"dependencies": {
+		"botan-math": "~>1.0.4",
+		"botan": "~>1.13.6",
+		"vibe-d": "~>0.9.8-beta.1",
+		"vibe-d:tls": ">=0.0.0"
+	},
+	"description": "A server that builds a chain of system boot hashes",
+	"license": "AGPL-3.0",
+	"name": "syschain-server",
+	"subConfigurations": {
+		"vibe-d:tls": "notls"
+	}
+}
